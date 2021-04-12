@@ -1,0 +1,36 @@
+.contenedor1{
+    color: white;
+    margin-left: 5mm;
+    margin-right: 5mm;
+}
+
+.contenedor1 ul li{
+    margin: 7mm;
+    list-style: none;
+}
+
+.contenedor1 a{
+    color: black;
+    background-color: white;
+    padding: 2mm;
+    text-decoration-line: none;
+    font-weight: 700;
+    display: block;
+    width: 6cm;
+    border-radius: 0.1cm;
+    opacity: 75%;
+    transition: all .2s;
+}
+
+.contenedor1 a:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.link-on{
+    border-right: solid 8px rgb(88, 214, 141);
+}
+
+.link-off{
+    border-right: solid 8px red;
+}

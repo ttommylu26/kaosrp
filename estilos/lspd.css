@@ -1,0 +1,11 @@
+form{
+    background-color: rgb(37, 37, 37);
+    width: max-content;
+    padding: 3mm;
+}
+
+form input{
+    border: none;
+    padding: 2mm;
+    margin: 1mm;
+}
