@@ -8,13 +8,24 @@ body{
     background-color: black;
 }
 
-.footer{
-    position: fixed;
-    bottom: 1mm;
-    left: 1mm;
-    color: white;
+nav{
+    position: absolute;
+    top: 2mm;
+    left: 2mm;
+    transition: all .1s;
+    opacity: 75%;
 }
 
-.footer a{
+nav a{
     color: white;
+    text-decoration-line: none;
+}
+
+nav:hover{
+    transform: translateX(2%);
+    opacity: 100%;
+}
+
+nav a:hover{
+    text-decoration-line: underline;
 }
