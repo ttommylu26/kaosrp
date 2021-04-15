@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Opositar a EMS - KaosRP</title>
-    <link rel="stylesheet" href="estilos/lspd.css">
+    <link rel="stylesheet" href="estilos/ems.css">
     <link rel="stylesheet" href="estilos/compartidos.css">
     <link rel="icon" href="img/logo/kaosrplogo.png">
 </head>
@@ -19,9 +19,14 @@
 
     <center>
     <form name="ems" method="POST" data-netlify="true">
-        <input type="text" placeholder="Nombre Completo [OC]" name="nameOc" id="" required> <br>
         <input type="text" placeholder="Nombre Completo [IC]" name="nameIc" id="" required> <br>
         <input type="text" placeholder="Email" name="email" id="" required> <br>
+        <p>¿Leiste atentamente las normas de médicos?</p>
+        <select name="¿Leiste atentamente las normas de médicos?" id="">
+            <option value="La persona no ha contestado" selected>Seleccione una opción</option>
+            <option value="Si">Si</option>
+            <option value="No">No</option>
+        </select> <br>
         <input type="submit" value="Enviar">
     </form>
     </center>
