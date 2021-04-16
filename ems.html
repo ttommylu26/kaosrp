@@ -22,11 +22,18 @@
         <input type="text" placeholder="Nombre Completo [IC]" name="nameIc" id="" required> <br>
         <input type="text" placeholder="Email" name="email" id="" required> <br>
         <p>¿Leiste atentamente las normas de médicos?</p>
-        <select name="¿Leiste atentamente las normas de médicos?" id="">
-            <option value="La persona no ha contestado" selected>Seleccione una opción</option>
-            <option value="Si">Si</option>
-            <option value="No">No</option>
-        </select> <br>
+  
+        <input type="hidden" name="¿Leiste atentamente las normas de médicos?">
+        <label for="¿Leiste atentamente las normas de médicos?">
+        <input type="radio" name="opcion-pregunta-1" value="Si, lei las normas de médicos" id=""> Si
+        /
+        <input type="radio" name="opcion-pregunta-1" value="No, no lei las normas de médicos" id=""> No
+        </label> <br>
+
+        <input type="text" placeholder="Edad [IC]" name="EdadIc" id="" required> <br>
+        <input type="text" placeholder="Nacionalidad [IC]" name="NacionalidadIc" id="" required> <br>
+        <textarea name="¿Porque le gustaría ser médico?" id="" cols="30" rows="10" placeholder="¿Porque le gustaría ser médico?" required></textarea> <br>
+
         <input type="submit" value="Enviar">
     </form>
     </center>
