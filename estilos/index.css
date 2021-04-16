@@ -34,3 +34,10 @@
 .link-off{
     border-right: solid 8px red;
 }
+
+span{
+    font-size: 13px;
+    position: absolute;
+    margin-top: 4px;
+    font-weight: 400;
+}
