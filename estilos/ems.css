@@ -1,9 +1,21 @@
 form{
     background-color: white;
-    width: max-content;
+    width: 8cm;
     padding: 3mm;
     border-top-left-radius: 0.3cm;
     border-top-right-radius: 0.3cm;
+}
+
+form hr{
+    opacity: 60%;
+    margin-top: 3mm;
+    margin-bottom: 3mm;
+    margin-left: 1.5cm;
+    margin-right: 1.5cm;
+}
+
+form p{
+    opacity: 70%;
 }
 
 form input, form textarea, form select{
@@ -20,3 +32,9 @@ form select{
 form textarea{
     resize: vertical;
 }
+
+form select{
+    padding: 1mm;
+}
+
+
