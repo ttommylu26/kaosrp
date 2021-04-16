@@ -6,6 +6,25 @@ form{
     border-top-right-radius: 0.3cm;
 }
 
+form a{
+    color: black;
+    background-color: transparent;
+    text-decoration-line: none;
+    border: solid black 1px;
+    padding: 1mm;
+    border-radius: 0.1cm;
+    opacity: 70%;
+    margin-top: 1.5mm;
+    display: inline-block;
+    transition: all .1s;
+}
+
+form a:hover{
+    color: white;
+    background-color: black;
+    opacity: 100%;
+}
+
 form hr{
     opacity: 60%;
     margin-top: 3mm;
