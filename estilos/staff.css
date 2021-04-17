@@ -1,0 +1,39 @@
+.check-1:checked ~ .check-1_textarea{
+    display: block;
+}
+
+.check-1_textarea{
+    display: none;
+}
+
+.check-2:checked ~ .check-2_textarea{
+    display: block;
+}
+
+.check-2_textarea{
+    display: none;
+}
+
+.check-3:checked ~ .check-3_textarea{
+    display: block;
+}
+
+.check-3_textarea{
+    display: none;
+}
+
+.check-4:checked ~ .check-4_textarea{
+    display: block;
+}
+
+.check-4_textarea{
+    display: none;
+}
+
+.check-5:checked ~ .check-5_textarea{
+    display: block;
+}
+
+.check-5_textarea{
+    display: none;
+}
