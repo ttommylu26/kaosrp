@@ -89,4 +89,12 @@ form select{
     padding: 1mm;
 }
 
+.enviar{
+    opacity: 70%;
+    transition: all .1s;
+}
 
+.enviar:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
