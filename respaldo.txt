@@ -1,3 +1,14 @@
+               <p>Estas en mitad de una persecucion y logras perder a la policia, vas a un lugar seguro y de un momento a otro caen varias patrullas de policia (PD: Se sabe que los PD consigueron informacion OOC de tu posicion actual) ¿Que haces en estos casos?</p>
+        <div style="text-align: left;">
+        <input type="radio" name="Estas en mitad de una persecucion y logras perder a la policia, vas a un lugar seguro y de un momento a otro caen varias patrullas de policia (PD: Se sabe que los PD consigueron informacion OOC de tu posicion actual) ¿Que haces en estos casos?" value="Continuo con el rol, tranquilamente aun sabiendo que toda la informacion fue obtenida de manera OOC" required id=""> Continuo con el rol, tranquilamente aun sabiendo que toda la informacion fue obtenida de manera OOC <br>
+        <input type="radio" name="Estas en mitad de una persecucion y logras perder a la policia, vas a un lugar seguro y de un momento a otro caen varias patrullas de policia (PD: Se sabe que los PD consigueron informacion OOC de tu posicion actual) ¿Que haces en estos casos?" value="Me pongo a insultar por el /b" required id=""> Me pongo a insultar por el /b <br>
+        <input type="radio" name="Estas en mitad de una persecucion y logras perder a la policia, vas a un lugar seguro y de un momento a otro caen varias patrullas de policia (PD: Se sabe que los PD consigueron informacion OOC de tu posicion actual) ¿Que haces en estos casos?" value="Llamo a un staff para aclarar esta situacion" required id=""> Llamo a un staff para aclarar esta situacion <br>
+        <input type="radio" name="Estas en mitad de una persecucion y logras perder a la policia, vas a un lugar seguro y de un momento a otro caen varias patrullas de policia (PD: Se sabe que los PD consigueron informacion OOC de tu posicion actual) ¿Que haces en estos casos?" value="Otros:" required id=""> Otros <br>
+        <textarea name="Estas en mitad de una persecucion y logras perder a la policia, vas a un lugar seguro y de un momento a otro caen varias patrullas de policia (PD: Se sabe que los PD consigueron informacion OOC de tu posicion actual) ¿Que haces en estos casos?" placeholder="En caso de elegir 'Otros', escriba su respuesta aquí" id="" cols="30" rows="10"></textarea>
+        </div>
+        <hr>
+
+       
         <p>Vas escapando de la policia, y te caes de un barranco de una altura considerable ¿Que haces en estos casos?</p>
         <div style="text-align: left;">
         <input type="radio" name="Vas escapando de la policia, y te caes de un barranco de una altura considerable ¿Que haces en estos casos?" value="Me quedo en mi posicion roleando la caida" required id=""> Me quedo en mi posicion roleando la caida <br>
