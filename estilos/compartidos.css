@@ -33,10 +33,12 @@ nav a:hover{
 /* formularios */
 form{
     background-color: white;
-    width: 8cm;
     padding: 3mm;
-    border-top-left-radius: 0.3cm;
-    border-top-right-radius: 0.3cm;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    border-top-left-radius: 0.2cm;
+    border-top-right-radius: 0.2cm;
+    text-align: center;
 }
 
 form a{
@@ -58,23 +60,43 @@ form a:hover{
     opacity: 100%;
 }
 
+form h1{
+    opacity: 70%;
+}
+
+form h2, form h4{
+    opacity: 70%;
+}
+
+form h4{
+    margin-bottom: 3mm;
+    width: 10cm;
+}
+
 form hr{
     opacity: 60%;
     margin-top: 3mm;
     margin-bottom: 3mm;
-    margin-left: 1.5cm;
-    margin-right: 1.5cm;
+    width: 45%; 
 }
 
-form p{
-    opacity: 70%;
-}
 
 form input, form textarea, form select{
     border: none;
+    border-left: solid black 5px;
+    border-radius: 0.1cm;
     padding: 2mm;
-    margin: 1mm;
+    margin-top: 3mm;
+    margin-bottom: 3mm;
+    outline: none;
+    font-size: 20px;
     background-color: rgb(230, 230, 230);
+    transition: all .1s;
+}
+
+form input:focus{
+    transform: translateX(3%);
+    border-left: solid gray 5px;
 }
 
 form select{
@@ -98,3 +120,4 @@ form select{
     opacity: 100%;
     cursor: pointer;
 }
+
