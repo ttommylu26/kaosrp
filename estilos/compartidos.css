@@ -30,6 +30,10 @@ nav a:hover{
     text-decoration-line: underline;
 }
 
+.logo{
+    width: 7.5cm;
+}
+
 /* formularios */
 form{
     background-color: white;
@@ -121,3 +125,68 @@ form select{
     cursor: pointer;
 }
 
+@media(max-width: 895px){
+    form{
+        margin-left: 2cm;
+        margin-right: 2cm;
+    }
+}
+
+@media(max-width: 677px){
+    form{
+        font-size: 14px;
+    }
+
+    form input, form textarea, form select{
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 623px){
+    form h4{
+        width: auto;
+    }
+}
+
+@media(max-width: 551px){
+    form{
+    }
+
+    form input, form textarea, form select{
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 502px){
+    form input, form textarea, form select{
+        font-size: 15px;
+    }
+
+    form{
+        margin-left: 1cm;
+        margin-right: 1cm;
+    }
+}
+
+@media(max-width: 428px){
+    form h1{
+        font-size: 24px;
+    }
+}
+
+@media(max-width: 354px){
+    form{
+        margin-left: 5mm;
+        margin-right: 5mm;
+    }
+    
+    form textarea{
+        width: 80%;
+    }
+}
+
+@media(max-width: 291px){
+    .logo{
+        width: 100%;
+    }
+}
