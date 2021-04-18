@@ -98,7 +98,7 @@ form input, form textarea, form select{
     transition: all .1s;
 }
 
-form input:focus{
+form input:focus, form textarea:focus{
     transform: translateX(3%);
     border-left: solid gray 5px;
 }
