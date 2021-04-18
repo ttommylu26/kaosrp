@@ -174,14 +174,14 @@ form select{
     }
 }
 
-@media(max-width: 354px){
+@media(max-width: 379px){
     form{
         margin-left: 5mm;
         margin-right: 5mm;
     }
     
     form textarea{
-        width: 80%;
+        width: 75%;
     }
 }
 
