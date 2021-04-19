@@ -1,7 +1,10 @@
-h1, h2{
+h1, h3{
     color: white;
+    margin-left: 5mm;
+    margin-right: 5mm;
 }
 
-h2{
+h3{
     opacity: 70%;
 }
+
